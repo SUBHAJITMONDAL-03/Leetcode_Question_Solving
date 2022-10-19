@@ -21,7 +21,7 @@ public:
               {
                   if(str[j] != str[j - 1])
                     {
-                        tmp += cnt + '0';
+                        tmp =tmp + to_string(cnt);
                         tmp += str[j - 1];
                         cnt = 1;
                     }
