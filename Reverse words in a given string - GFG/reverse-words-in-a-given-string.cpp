@@ -8,7 +8,7 @@ class Solution
 {
     public:
     //Function to reverse words in a given string.
-    /*string reverseWords(string S) 
+    string reverseWords(string S) 
     { 
         // code here 
         string hep="";
@@ -23,12 +23,10 @@ class Solution
                 hep+=".";
                 ans+=hep;
                 hep="";
-                
-                
             }
-            else{
-                ans+=S[i];
-            }
+            else
+                hep+=S[i];
+            
             
         }
         reverse(hep.begin(),hep.end());
@@ -39,30 +37,9 @@ class Solution
         
         
     } 
-};*/
-string reverseWords(string s) 
-    {         
-        string res="", helper="";
-        reverse(s.begin(), s.end());
-        for(int i=0; i<s.size(); i++)
-        {
-            if(s[i]=='.')
-            {
-                reverse(helper.begin(), helper.end());
-                helper+=".";
-                res+=helper;
-                helper="";
-            }
-            else
-            helper+=s[i];
-        }
-        
-        reverse(helper.begin(), helper.end());
-        res+=helper;
-        
-        return res;
-    }
 };
+
+
 
 //{ Driver Code Starts.
 int main() 
