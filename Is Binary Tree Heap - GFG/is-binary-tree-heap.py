@@ -16,8 +16,9 @@ class Solution:
         queue = [(root, 1)]
         level = 0
         while queue:
-            for i, v in enumerate(queue):
-                if v[1] != i+1: return False
+            if len(queue) != (1 << level):
+                for i, v in enumerate(queue):
+                    if v[1] != i+1: return False
             new_queue = []
             for v, i in queue:
                 if v.left:
