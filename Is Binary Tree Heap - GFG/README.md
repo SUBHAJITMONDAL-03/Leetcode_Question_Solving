@@ -5,7 +5,7 @@
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input:
 </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5
  &nbsp;&nbsp;&nbsp;/  \
 &nbsp;&nbsp; 2    3
@@ -13,17 +13,17 @@
 <strong>Explanation:</strong>&nbsp;The given tree follows <strong>max-heap</strong>&nbsp;property since 5,
 is root and it is greater than both its children.
 </span>
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input:
 </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10
  &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp; \
  &nbsp;&nbsp;&nbsp;20&nbsp;&nbsp; 30 
 &nbsp;&nbsp;/&nbsp;&nbsp; \
  40&nbsp;&nbsp; 60
-<strong>Output:</strong> 0</span></pre>
+<strong>Output:</strong> 0</span><div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><br>
 <span style="font-size:18px"><strong>Your Task:</strong><br>
