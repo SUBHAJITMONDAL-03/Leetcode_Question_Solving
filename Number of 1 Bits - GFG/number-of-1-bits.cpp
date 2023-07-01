@@ -3,20 +3,19 @@
 using namespace std;
 
 // } Driver Code Ends
-class Solution {
-  public:
-    int setBits(int N) {
-        // Write Your Code here
-        int count=0;
-        while(N){
-            
-            N&=(N-1);
-            count++;
-            
-        }
-        return count;
-    }
-};
+class Solution { 
+   public: 
+     int setBits(int N) { 
+         int ans = 0; 
+  
+         while(N){ 
+             ++ans; 
+             N &= (N - 1); 
+         } 
+  
+         return ans; 
+     } 
+ };
 
 //{ Driver Code Starts.
 int main() {
